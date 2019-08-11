@@ -1,6 +1,7 @@
 # Atari SIO2SD Igi Version
 
 Jedná se o vylepšené a zjednodušené zapojení od [Igiho](http://blog.3b2.sk/igi/post/SIO2SD-3verzia.aspx).
+Otestováno na Atari 800XE a vše funguje bez problému.
 
 ![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")
 
