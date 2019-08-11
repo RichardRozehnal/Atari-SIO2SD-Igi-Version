@@ -1,1 +1,0 @@
-for version 2.x and 3.x: (H:0xC3 ; L:0x3F) 
