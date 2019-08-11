@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Program Files/KiCad/Projects/Atari SIO2SD Igi Version 11-2016.sch</source>
+    <date>26/11/2017 12:40:37</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Atari SIO2SD Igi Version 11/2016</title>
+        <company/>
+        <rev/>
+        <date>2017-11-04</date>
+        <source>Atari SIO2SD Igi Version 11-2016.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Y1">
+      <value>14.318MHz</value>
+      <footprint>Krystaly_THT:Crystal_HC49-U_Vertical</footprint>
+      <libsource lib="Krystaly_THT" part="Krystal_HC49-U_Vertical"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FD8F63</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA32A-AU</value>
+      <footprint>Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm</footprint>
+      <libsource lib="Atmel" part="ATMEGA32A-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FD8DE6</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Kondenzátory_tantalové_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <libsource lib="Kondenzátory_tantalové_SMD" part="C_Tantal_A/3216"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDA72E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDA7D7</tstamp>
+    </comp>
+    <comp ref="LCD1">
+      <value>Display_16x2</value>
+      <footprint>Displeje:LCD_16x2</footprint>
+      <libsource lib="Displeje" part="Display_16x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDC195</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDC1F9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>27R</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDC238</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>5k</value>
+      <footprint>Trimry_odporové_THT:3362P</footprint>
+      <libsource lib="Trimry_odporové_THT" part="3362P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDC29B</tstamp>
+    </comp>
+    <comp ref="WP1">
+      <value>MOSI</value>
+      <footprint>Wire_Pads_SMD:Wire_Pad_1.27x2.54mm</footprint>
+      <libsource lib="Wire_Pads" part="Wire_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDFDE5</tstamp>
+    </comp>
+    <comp ref="WP2">
+      <value>MISO</value>
+      <footprint>Wire_Pads_SMD:Wire_Pad_1.27x2.54mm</footprint>
+      <libsource lib="Wire_Pads" part="Wire_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDFE3A</tstamp>
+    </comp>
+    <comp ref="WP3">
+      <value>SCK</value>
+      <footprint>Wire_Pads_SMD:Wire_Pad_1.27x2.54mm</footprint>
+      <libsource lib="Wire_Pads" part="Wire_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDFE69</tstamp>
+    </comp>
+    <comp ref="WP4">
+      <value>RST</value>
+      <footprint>Wire_Pads_SMD:Wire_Pad_1.27x2.54mm</footprint>
+      <libsource lib="Wire_Pads" part="Wire_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FDFE9A</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>RESET</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE772E</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>DRIVE</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE7789</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>NEXT</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE784A</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>CD..</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE7899</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>ENTER</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE78D8</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>SHIFT</value>
+      <footprint>Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</footprint>
+      <libsource lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE7913</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA631</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA6A2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA6E9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA732</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA77D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEA7CA</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HT7533-1</value>
+      <footprint>Stabilizátory_SMD:SOT-89R-3</footprint>
+      <libsource lib="Stabilizátory_SMD" part="HT7533-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEB6BF</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Kondenzátory_tantalové_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <libsource lib="Kondenzátory_tantalové_SMD" part="C_Tantal_A/3216"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEB73E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Kondenzátory_tantalové_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <libsource lib="Kondenzátory_tantalové_SMD" part="C_Tantal_A/3216"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEB80B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEB86A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k8</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEB9AD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k8</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEBA2E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k8</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEBA91</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3k3</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEBAE8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3k3</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEBB41</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>3k3</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FEBB9C</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>KF2510-5_Angled_Pitch2.54mm</value>
+      <footprint>Konektory_THT:KF2510-5_Angled_Pitch2.54mm</footprint>
+      <libsource lib="Konektory_THT" part="KF2510-5_Angled_Pitch2.54mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FF264E</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>SD_Card</value>
+      <footprint>Konektory_SMD:SD_Card_Wurth_693061010911</footprint>
+      <libsource lib="Konektory_SMD" part="SD_Card"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FF4419</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FF5824</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Červená</value>
+      <footprint>Diody_LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Diody_LED_THT" part="LED_5mm_Červená"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A001CAE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Žlutá</value>
+      <footprint>Diody_LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Diody_LED_THT" part="LED_5mm_Žlutá"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A001D29</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Zelená</value>
+      <footprint>Diody_LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Diody_LED_THT" part="LED_5mm_Zelená"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A001DA0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0027A5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A00282C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>Rezistory_SMD:R_1206</footprint>
+      <libsource lib="Rezistory_SMD" part="R_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0028A5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LL103A</value>
+      <footprint>Diody_Schottky_SMD:D_MiniMELF</footprint>
+      <libsource lib="Diody_Schottky_SMD" part="LL103A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A00412B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0171A9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A017BBB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A017C62</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Kondenzátory_SMD:C_1206</footprint>
+      <libsource lib="Kondenzátory_SMD" part="C_1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0180A8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Trimry_odporové_THT" part="3362P">
+      <description>Trimr odporový, 3362P</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">3362P</field>
+        <field name="Footprint">Trimry_odporové_THT:3362P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Atmel" part="ATMEGA32A-AU">
+      <description>TQFP44, 32k Flash, 2k SRAM, 1k EEPROM, JTAG</description>
+      <docs>http://www.atmel.com/images/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP44</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32A-AU</field>
+        <field name="Footprint">Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(MOSI)PB5" type="BiDi"/>
+        <pin num="2" name="(MISO)PB6" type="BiDi"/>
+        <pin num="3" name="(SCK)PB7" type="BiDi"/>
+        <pin num="4" name="~RESET" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="BiDi"/>
+        <pin num="8" name="XTAL1" type="BiDi"/>
+        <pin num="9" name="(RXD)PD0" type="BiDi"/>
+        <pin num="10" name="(TXD)PD1" type="BiDi"/>
+        <pin num="11" name="(INT0)PD2" type="BiDi"/>
+        <pin num="12" name="(INT1)PD3" type="BiDi"/>
+        <pin num="13" name="(OC1B)PD4" type="BiDi"/>
+        <pin num="14" name="(OC1A)PD5" type="BiDi"/>
+        <pin num="15" name="(ICP)PD6" type="BiDi"/>
+        <pin num="16" name="(OC2)PD7" type="BiDi"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="(SCL)PC0" type="BiDi"/>
+        <pin num="20" name="(SDA)PC1" type="BiDi"/>
+        <pin num="21" name="(TCK)PC2" type="BiDi"/>
+        <pin num="22" name="(TMS)PC3" type="BiDi"/>
+        <pin num="23" name="(TDO)PC4" type="BiDi"/>
+        <pin num="24" name="(TDI)PC5" type="BiDi"/>
+        <pin num="25" name="(TOSC1)PC6" type="BiDi"/>
+        <pin num="26" name="(TOSC2)PC7" type="BiDi"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="AREF" type="power_in"/>
+        <pin num="30" name="(ADC7)PA7" type="BiDi"/>
+        <pin num="31" name="(ADC6)PA6" type="BiDi"/>
+        <pin num="32" name="(ADC5)PA5" type="BiDi"/>
+        <pin num="33" name="(ADC4)PA4" type="BiDi"/>
+        <pin num="34" name="(ADC3)PA3" type="BiDi"/>
+        <pin num="35" name="(ADC2)PA2" type="BiDi"/>
+        <pin num="36" name="(ADC1)PA1" type="BiDi"/>
+        <pin num="37" name="(ADC0)PA0" type="BiDi"/>
+        <pin num="38" name="VCC" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="(T0/XCK)PB0" type="BiDi"/>
+        <pin num="41" name="(T1)PB1" type="BiDi"/>
+        <pin num="42" name="(AIN0/INT2)PB2" type="BiDi"/>
+        <pin num="43" name="(AIN1/OC0)PB3" type="BiDi"/>
+        <pin num="44" name="(~SS~)PB4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kondenzátory_SMD" part="C_1206">
+      <description>Nepolarizovaný kondenzátor 1206</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1206</field>
+        <field name="Footprint">Kondenzátory_SMD:C_1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kondenzátory_tantalové_SMD" part="C_Tantal_A/3216">
+      <description>Kondenzátor tantalový A/3216</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Tantal_A/3216</field>
+        <field name="Footprint">Kondenzátory_tantalové_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Displeje" part="Display_16x2">
+      <description>LCD 16x2</description>
+      <fields>
+        <field name="Reference">LCD</field>
+        <field name="Value">Display_16x2</field>
+        <field name="Footprint">Displeje:LCD_16x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VL" type="input"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="R/W" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="DB0" type="BiDi"/>
+        <pin num="8" name="DB1" type="BiDi"/>
+        <pin num="9" name="DB2" type="BiDi"/>
+        <pin num="10" name="DB3" type="BiDi"/>
+        <pin num="11" name="DB4" type="BiDi"/>
+        <pin num="12" name="DB5" type="BiDi"/>
+        <pin num="13" name="DB6" type="BiDi"/>
+        <pin num="14" name="DB7" type="BiDi"/>
+        <pin num="15" name="BL+" type="power_in"/>
+        <pin num="16" name="BL-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Stabilizátory_SMD" part="HT7533-1">
+      <description>Stabilizátor napětí 3,3V / 0,1A, max. vstupní napětí 26V, úbytek napětí 0,1V</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT7533-1</field>
+        <field name="Footprint">Stabilizátory_SMD:SOT-89R-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Konektory_THT" part="KF2510-5_Angled_Pitch2.54mm">
+      <description>Konektor KF2510 (PSH02), angled, 5 pinů, 2.54mm</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">KF2510-5_Angled_Pitch2.54mm</field>
+        <field name="Footprint">Konektory_THT:KF2510-5_Angled_Pitch2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Krystaly_THT" part="Krystal_HC49-U_Vertical">
+      <description>Krystal, HC49-U Vertical</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Krystal_HC49-U_Vertical</field>
+        <field name="Footprint">Krystaly_THT:Crystal_HC49-U_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diody_LED_THT" part="LED_5mm_Zelená">
+      <description>LED 5mm Zelená</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_5mm_Zelená</field>
+        <field name="Footprint">Diody_LED_THT:LED_D5.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diody_LED_THT" part="LED_5mm_Červená">
+      <description>LED 5mm Červená</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_5mm_Červená</field>
+        <field name="Footprint">Diody_LED_THT:LED_D5.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diody_LED_THT" part="LED_5mm_Žlutá">
+      <description>LED 5mm Žlutá</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_5mm_Žlutá</field>
+        <field name="Footprint">Diody_LED_THT:LED_D5.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diody_Schottky_SMD" part="LL103A">
+      <description>Urrm = 40V, If = 0,2A, Ufm = 0,37V, Ifsm = 15A</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LL103A</field>
+        <field name="Footprint">Diody_Schottky_SMD:D_MiniMELF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Vypínače, přepínače, tlačítka_THT" part="Mikrospínač_6x6x5mm">
+      <description>Mikrospínač 6 x 6 x 5 mm, Omron</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Mikrospínač_6x6x5mm</field>
+        <field name="Footprint">Vypínače, přepínače, tlačítka_THT:SW_PUSH_6mm_h5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rezistory_SMD" part="R_1206">
+      <description>Rezistor 1206</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1206</field>
+        <field name="Footprint">Rezistory_SMD:R_1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Konektory_SMD" part="SD_Card">
+      <description>SD Card Reader</description>
+      <docs>http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SD_Card</field>
+        <field name="Footprint">Konektory_SMD:SD_Card_Wurth_693061010911</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CD/DAT3" type="input"/>
+        <pin num="2" name="CMD" type="input"/>
+        <pin num="3" name="VSS" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="DAT2" type="input"/>
+        <pin num="10" name="CARD_DETECT" type="input"/>
+        <pin num="11" name="WRITE_PROTECT" type="input"/>
+        <pin num="12" name="SHELL1" type="input"/>
+        <pin num="13" name="SHELL2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wire_Pads" part="Wire_Pad">
+      <fields>
+        <field name="Reference">WP</field>
+        <field name="Value">Wire_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Atmel.lib</uri>
+    </library>
+    <library logical="Diody_LED_THT">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Diody_LED_THT.lib</uri>
+    </library>
+    <library logical="Displeje">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Displeje.lib</uri>
+    </library>
+    <library logical="Diody_Schottky_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Diody_Schottky_SMD.lib</uri>
+    </library>
+    <library logical="Kondenzátory_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Kondenzátory_SMD.lib</uri>
+    </library>
+    <library logical="Kondenzátory_tantalové_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Kondenzátory_tantalové_SMD.lib</uri>
+    </library>
+    <library logical="Konektory_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Konektory_SMD.lib</uri>
+    </library>
+    <library logical="Konektory_THT">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Konektory_THT.lib</uri>
+    </library>
+    <library logical="Krystaly_THT">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Krystaly_THT.lib</uri>
+    </library>
+    <library logical="Vypínače, přepínače, tlačítka_THT">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Vypínače, přepínače, tlačítka_THT.lib</uri>
+    </library>
+    <library logical="Stabilizátory_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Stabilizátory_SMD.lib</uri>
+    </library>
+    <library logical="Trimry_odporové_THT">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Trimry_odporové_THT.lib</uri>
+    </library>
+    <library logical="Rezistory_SMD">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Rezistory_SMD.lib</uri>
+    </library>
+    <library logical="Wire_Pads">
+      <uri>C:\Program Files\KiCad\share\kicad\Moje\library\Wire_Pads.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(K8-Pad7)">
+      <node ref="U1" pin="22"/>
+      <node ref="K8" pin="7"/>
+    </net>
+    <net code="2" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="K8" pin="4"/>
+    </net>
+    <net code="3" name="Net-(K8-Pad6)">
+      <node ref="K8" pin="6"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="4" name="Net-(K8-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="K8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R7-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R8-Pad1)">
+      <node ref="U1" pin="20"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R9-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="8" name="Net-(LCD1-Pad6)">
+      <node ref="LCD1" pin="6"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="9" name="Net-(C5-Pad1)">
+      <node ref="K4" pin="1"/>
+      <node ref="U1" pin="43"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(LCD1-Pad13)">
+      <node ref="U1" pin="35"/>
+      <node ref="LCD1" pin="13"/>
+    </net>
+    <net code="11" name="Net-(LCD1-Pad12)">
+      <node ref="U1" pin="36"/>
+      <node ref="LCD1" pin="12"/>
+    </net>
+    <net code="12" name="Net-(LCD1-Pad5)">
+      <node ref="LCD1" pin="5"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="13" name="Net-(LCD1-Pad4)">
+      <node ref="LCD1" pin="4"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad3)">
+      <node ref="WP3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad2)">
+      <node ref="WP2" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad1)">
+      <node ref="WP1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(K8-Pad5)">
+      <node ref="R7" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="K8" pin="5"/>
+    </net>
+    <net code="18" name="Net-(K8-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="K8" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad1)">
+      <node ref="U1" pin="41"/>
+      <node ref="C7" pin="1"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C4-Pad1)">
+      <node ref="K5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="22" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="K3" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="23" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="24" name="Net-(K7-Pad5)">
+      <node ref="U1" pin="9"/>
+      <node ref="K7" pin="5"/>
+    </net>
+    <net code="25" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="K7" pin="4"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="K5" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="K4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="LCD1" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="K8" pin="12"/>
+      <node ref="K8" pin="13"/>
+      <node ref="K8" pin="3"/>
+      <node ref="LCD1" pin="16"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="K3" pin="2"/>
+      <node ref="K6" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="K2" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="K7" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D1-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="24"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="25"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="32" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="33" name="+5V">
+      <node ref="K7" pin="1"/>
+      <node ref="LCD1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="27"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="34" name="Net-(K8-Pad8)">
+      <node ref="K8" pin="8"/>
+    </net>
+    <net code="35" name="Net-(K8-Pad9)">
+      <node ref="K8" pin="9"/>
+    </net>
+    <net code="36" name="Net-(K8-Pad10)">
+      <node ref="K8" pin="10"/>
+    </net>
+    <net code="37" name="Net-(K8-Pad11)">
+      <node ref="K8" pin="11"/>
+    </net>
+    <net code="38" name="Net-(LCD1-Pad10)">
+      <node ref="LCD1" pin="10"/>
+    </net>
+    <net code="39" name="Net-(LCD1-Pad9)">
+      <node ref="LCD1" pin="9"/>
+    </net>
+    <net code="40" name="Net-(LCD1-Pad8)">
+      <node ref="LCD1" pin="8"/>
+    </net>
+    <net code="41" name="Net-(LCD1-Pad7)">
+      <node ref="LCD1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="48" name="Net-(K7-Pad3)">
+      <node ref="K7" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="49" name="Net-(LCD1-Pad15)">
+      <node ref="LCD1" pin="15"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="50" name="Net-(P1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(LCD1-Pad11)">
+      <node ref="U1" pin="37"/>
+      <node ref="LCD1" pin="11"/>
+    </net>
+    <net code="52" name="Net-(LCD1-Pad14)">
+      <node ref="U1" pin="34"/>
+      <node ref="LCD1" pin="14"/>
+    </net>
+    <net code="53" name="Net-(C9-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="K6" pin="1"/>
+      <node ref="WP4" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C10-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="LCD1" pin="3"/>
+    </net>
+    <net code="55" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="56" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+  </nets>
+</export>
