@@ -19,17 +19,11 @@ Všechny fotky jsou DPS verze 1.
 
 ![Atari SIO2SD PCB Bot](Fotky_DPS_v1/SIO2SD_PCB_Bot.JPG "Atari SIO2SD PCB Bot")
 
-#### Původní autoři zařízení jsou:
-
-
-Device inventor and AVR software developer: Jakub Kruszona-Zawadzki
-
-
-
-ATARI software developer and tester: Paweł Nowak (Pajero/MadTeam)
-
-NVC developer: Marcin Sochacki (Montezuma)
-Tester (also new SMD PCB designer - still not finished): Jakub Husak
+#### Původní autoři zařízení jsou:<br>
+Device inventor and AVR software developer: Jakub Kruszona-Zawadzki<br>
+ATARI software developer and tester: Paweł Nowak (Pajero/MadTeam)<br>
+NVC developer: Marcin Sochacki (Montezuma)<br>
+Tester (also new SMD PCB designer - still not finished): Jakub Husak<br>
 <br>
 Tato verze má vylepšené a zjednodušené zapojení od [Igiho](http://blog.3b2.sk/igi/post/SIO2SD-3verzia.aspx).
 Otestováno na Atari 800XE a vše funguje bez problému.
