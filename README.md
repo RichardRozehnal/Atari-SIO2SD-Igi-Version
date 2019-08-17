@@ -2,10 +2,9 @@
 
 SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari přes SIO konektor z SD/MMC karty.<br>
 
+![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")<br>
 
-![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")
-<br>
-#### Seznam součástek
+#### Seznam součástek:
 
 | Ref                      | Qnty | Value                       | Cmp name                    |
 |--------------------------|------|-----------------------------|-----------------------------|
@@ -42,7 +41,7 @@ SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari p�
 
 <br>
 
-Všechny fotky jsou DPS verze 1.
+#### Fotky hotového výrobku (DPS verze 1):
 
 ![Atari SIO2SD front](Fotky_DPS_v1/SIO2SD_front.JPG "Atari SIO2SD front")
 
@@ -56,7 +55,7 @@ Všechny fotky jsou DPS verze 1.
 
 ![Atari SIO2SD PCB Bot](Fotky_DPS_v1/SIO2SD_PCB_Bot.JPG "Atari SIO2SD PCB Bot")
 
-#### Původní autoři zařízení jsou:<br>
+#### Původní autoři zařízení jsou:
 Device inventor and AVR software developer: Jakub Kruszona-Zawadzki<br>
 ATARI software developer and tester: Paweł Nowak (Pajero/MadTeam)<br>
 NVC developer: Marcin Sochacki (Montezuma)<br>
