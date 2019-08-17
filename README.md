@@ -2,7 +2,7 @@
 
 SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari přes SIO konektor z SD/MMC karty.<br>
 
-![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")<br>
+![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")<br><br>
 
 #### Seznam součástek:
 
