@@ -49,6 +49,7 @@ SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari p�
 ![Atari SIO2SD PCB Bot](Fotky_DPS_v1/SIO2SD_PCB_Bot.JPG "Atari SIO2SD PCB Bot")
 
 ## Původní autoři zařízení jsou:
+
 Device inventor and AVR software developer: Jakub Kruszona-Zawadzki<br>
 ATARI software developer and tester: Paweł Nowak (Pajero/MadTeam)<br>
 NVC developer: Marcin Sochacki (Montezuma)<br>
