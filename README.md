@@ -4,7 +4,7 @@ SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari p�
 
 ![Atari SIO2SD Igi Version schema](Hardware/SIO2SD_Igi_Version_schema.jpg "SIO2SD Igi Version schema")<br><br>
 
-#### Seznam součástek:
+## Seznam součástek:
 
 | Ref                      | Qnty | Value                       | Cmp name                    |
 |--------------------------|------|-----------------------------|-----------------------------|
@@ -39,9 +39,7 @@ SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari p�
 | WP4,                     | 1    | RST                         | Wire_Pad                    |
 | Y1,                      | 1    | 14.318MHz                   | Krystal_HC49-U_Vertical     |
 
-<br>
-
-#### Fotky hotového výrobku (DPS verze 1):
+## Fotky hotového výrobku (DPS verze 1):
 
 ![Atari SIO2SD front](Fotky_DPS_v1/SIO2SD_front.JPG "Atari SIO2SD front")
 
@@ -54,13 +52,12 @@ SIO2SD je zařízení, které vám umožní nahrávat programy a hry do Atari p�
 ![Atari SIO2SD PCB Top](Fotky_DPS_v1/SIO2SD_PCB_Top.JPG "Atari SIO2SD PCB Top")
 
 ![Atari SIO2SD PCB Bot](Fotky_DPS_v1/SIO2SD_PCB_Bot.JPG "Atari SIO2SD PCB Bot")
-<br><br>
 
-#### Původní autoři zařízení jsou:
+## Původní autoři zařízení jsou:
 Device inventor and AVR software developer: Jakub Kruszona-Zawadzki<br>
 ATARI software developer and tester: Paweł Nowak (Pajero/MadTeam)<br>
 NVC developer: Marcin Sochacki (Montezuma)<br>
 Tester (also new SMD PCB designer - still not finished): Jakub Husak<br>
-<br><br>
+
 Tato verze má vylepšené a zjednodušené zapojení od [Igiho](http://blog.3b2.sk/igi/post/SIO2SD-3verzia.aspx).
 Otestováno na Atari 800XE a vše funguje bez problému.
